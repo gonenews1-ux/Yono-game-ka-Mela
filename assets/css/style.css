@@ -1,0 +1,229 @@
+/* ==========================================================
+   YONO GAME KA MELA
+   Premium Gaming UI
+   Version : 1.0
+========================================================== */
+
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f6f8fc;
+
+    color:#222;
+
+    line-height:1.7;
+
+    overflow-x:hidden;
+
+}
+
+/* Links */
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+/* Images */
+
+img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+/* Container */
+
+.container{
+
+    width:92%;
+
+    max-width:1400px;
+
+    margin:auto;
+
+}
+
+/* ===========================
+        HEADER
+=========================== */
+
+.header{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+    background:#ffffff;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 5%;
+
+    box-shadow:0 5px 25px rgba(0,0,0,.08);
+
+}
+
+.logo h1{
+
+    font-size:28px;
+
+    color:#0a58ff;
+
+    font-weight:700;
+
+}
+
+.navbar{
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+.navbar a{
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.navbar a:hover{
+
+    color:#0a58ff;
+
+}
+
+.telegram-btn{
+
+    background:#0a58ff;
+
+    color:#fff;
+
+    padding:12px 22px;
+
+    border-radius:12px;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.telegram-btn:hover{
+
+    transform:translateY(-3px);
+
+    background:#084de2;
+
+}
+
+/* ===========================
+        HERO
+=========================== */
+
+.hero{
+
+    padding:90px 5%;
+
+    background:linear-gradient(135deg,#0a58ff,#3f7dff);
+
+    color:#fff;
+
+    text-align:center;
+
+}
+
+.hero h2{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    font-size:20px;
+
+    max-width:800px;
+
+    margin:auto;
+
+}
+
+.hero-search{
+
+    margin-top:40px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+
+}
+
+.hero-search input{
+
+    width:420px;
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+}
+
+.hero-search button{
+
+    padding:18px 35px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#ffb300;
+
+    color:#000;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+}
